@@ -1,0 +1,83 @@
+body {
+    background-color: #338B95;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+input,
+form,
+button {
+    border: 1px solid #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: none;
+    transition: 0.2s ease;
+    color: #FFF;
+}
+
+form {
+
+    padding: 15px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    padding: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+input:hover,
+input:active,
+input:focus {
+    color: pink;
+    border-color: pink;
+}
+
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 10px 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover,
+button:active,
+button:focus {
+    background-color: pink;
+}
+
+
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
